@@ -1,13 +1,11 @@
 # compiled output
 /dist
 /node_modules
-/build
 
 # Logs
 logs
 *.log
 npm-debug.log*
-pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
@@ -27,15 +25,12 @@ lerna-debug.log*
 *.launch
 .settings/
 *.sublime-workspace
-*-audit.json
+
 # IDE - VSCode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-.env
-
-firebase-adminsdk.json
 
 yarn.lock
